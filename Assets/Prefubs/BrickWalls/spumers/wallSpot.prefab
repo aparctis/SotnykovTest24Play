@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &937950746814727657
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 937950746814727662}
+  - component: {fileID: 937950746814727663}
+  - component: {fileID: 8689524934916352021}
+  m_Layer: 0
+  m_Name: wallSpot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &937950746814727662
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 937950746814727657}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &937950746814727663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 937950746814727657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a964ba0ec3121149a330ff1b483c03a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spumlist:
+  - {fileID: 1013403907576605052, guid: 66012a662bfd86d48872dc2f03881582, type: 3}
+  - {fileID: 4235247645362286138, guid: 4a21af31cef1c6745b011e2081599faf, type: 3}
+  - {fileID: 5976781877061671523, guid: 81a1abef27e1bd94e87ee5523298c3eb, type: 3}
+  - {fileID: 2573722389426828186, guid: 65f0939d43dd33b46800ecb5f45fab41, type: 3}
+  - {fileID: 9202592169711689284, guid: 061db193e21f43e46aca7ee0f3670908, type: 3}
+  - {fileID: 419016513621108435, guid: 23e84ae62bf9d5749ac5c94593ceb87d, type: 3}
+  - {fileID: 2197034751970156881, guid: 29c449df5049ab04f8312f346606ecc2, type: 3}
+--- !u!114 &8689524934916352021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 937950746814727657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5c0336ce20df12418fde0c6b741548c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_camera: {fileID: 0}
+  camPos: 0
+  deleteAfter: 0
